@@ -10,7 +10,7 @@ int main()
     {
         b[i] = (i + 1) 2; //hianyzo feltetel
     }
-    for (int i = 0; i < N_ELEMENTS; i++) //hibás feltétel
+    for (int i = 0; i < N_ELEMENTS; i++) //hibï¿½s feltï¿½tel
     {
         std::cout << "Ertek: " << b[i] << std::endl; //hianyzo cout
     }
@@ -24,4 +24,4 @@ int main()
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b; //dinamikus memoria hiba
     return 0;
-}
+} // kiraly a kod:D
